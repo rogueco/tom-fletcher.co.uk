@@ -19,6 +19,12 @@ body, html,  h1, h3{
     background-color: #ffffff;
     padding: 50px;
 }
+
+.sectionDark{
+    background-color: #1E2125;
+    color: #ffffff;
+    padding:20px;
+}
 #mainHeaderCenter{
     height: 100%;
 }
@@ -35,16 +41,28 @@ body, html,  h1, h3{
 .gitHub a, .linkedIn a, .discord a{
     color: #1E2125;
 }
-.gitHub a:hover{
+.gitHub:hover, .gitHub a:hover{
     color: #6e5494;
+    text-decoration: none;
 }
 
-.linkedIn a:hover{
+.linkedIn:hover, .linkedIn a:hover{
     color: #006CAC;
 }
 
-.discord a:hover{
+.skype:hover, .skype a:hover{
+    color: #0D599A;
+}
+
+.discord:hover, .discord a:hover{
     color: #677ED5;
+}
+
+.profileImage{
+    border-radius: 50%;
+    height: 250px;
+    width: 250px;
+    float: top;
 }
 /*================== END OF SOCIAL ICON==================*/
 
