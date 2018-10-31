@@ -1,0 +1,125 @@
+body, html,  h1, h3{
+    height: 100%;
+    width: 100%;
+    scroll-behavior: smooth;
+    transition: 1000ms;
+}
+
+/*================== START OF  OPENING PAGE ==================*/
+.loadingSection{
+    height: 100%;
+}
+
+.sectionGrey{
+    background-color: #E7EBEF;
+    padding: 50px;
+}
+
+.sectionWhite{
+    background-color: #ffffff;
+    padding: 50px;
+}
+#mainHeaderCenter{
+    height: 100%;
+}
+#mainHeaderCenter h1{
+    height: 100%;
+    font-weight: 100;
+    font-size: 4rem;
+}
+#mainHeaderCenter h3{
+    font-weight: 100;
+    font-size: 3rem;
+}
+/*================== START OF SOCIAL ICON ==================*/
+.gitHub a, .linkedIn a, .discord a{
+    color: #1E2125;
+}
+.gitHub a:hover{
+    color: #6e5494;
+}
+
+.linkedIn a:hover{
+    color: #006CAC;
+}
+
+.discord a:hover{
+    color: #677ED5;
+}
+/*================== END OF SOCIAL ICON==================*/
+
+
+/*================== END OF OPENING PAGE ==================*/
+
+
+
+/*================== START OF SIDEBAR ==================*/
+
+#sideBar{
+    position: fixed;
+    width: 200px;
+    height: 100%;
+    background: #151719;
+    right: -200px;
+    transition: 500ms;
+    z-index: 9;
+}
+#sideBar.active{
+    right:0;
+}
+
+#sideBar ul li{
+    list-style: none;
+    padding: 15px 10px;
+}
+
+.linkColor a{
+    color: white;
+}
+.linkColor a:hover{
+    color: #99f2c8;
+    text-decoration: none;
+}
+
+#sideBar .toggleBtn{
+    position: absolute;
+    right: 230px;
+    top: 20px;
+}
+
+#sideBar .toggleBtn span{
+    display: block;
+    width: 30px;
+    height: 2px;
+    background: #151719;
+    margin: 7px;
+}
+
+/*================== END OF SIDEBAR ==================*/
+
+@media (max-width: 1100px) {
+    #mainHeaderCenter h1, #mainHeaderCenter h3{
+        font-weight: 100;
+        font-size: 2rem;
+    }
+}
+@media (max-width: 800px) {
+    #mainHeaderCenter a  {
+        font-weight: 100;
+        font-size: .75rem;
+    }
+}
+
+@media (max-width: 1400px) {
+    #portfolioTitles h1, #portfolioTitles p, #portfolioTitles li{
+        font-weight: 100;
+        font-size: 3rem;
+    }
+}
+
+@media (max-width: 1400px) {
+    #portfolioTitles p, #portfolioTitles li{
+        font-weight: 100;
+        font-size: 1rem;
+    }
+}
