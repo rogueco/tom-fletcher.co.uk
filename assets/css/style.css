@@ -50,6 +50,15 @@ body, html,  h1, h3{
     color: #006CAC;
 }
 
+.anchorTag {
+    text-decoration: none;
+    color: #151719;
+}
+
+.anchorTag:hover{
+    text-decoration: none;
+}
+
 .skype:hover, .skype a:hover{
     color: #0D599A;
 }
