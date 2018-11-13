@@ -113,6 +113,12 @@ body, html,  h1, h3{
     margin: 7px;
 }
 
+/*================== START OF Footer ==================*/
+.footerText{
+    margin: 0 auto;
+}
+/*================== END OF Footer ==================
+
 /*================== END OF SIDEBAR ==================*/
 
 @media (max-width: 1100px) {
