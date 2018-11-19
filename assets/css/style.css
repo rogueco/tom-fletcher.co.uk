@@ -44,10 +44,12 @@ body, html,  h1, h3{
 .gitHub:hover, .gitHub a:hover{
     color: #6e5494;
     text-decoration: none;
+    transition: 500ms;
 }
 
 .linkedIn:hover, .linkedIn a:hover{
     color: #006CAC;
+    transition: 500ms;
 }
 
 .anchorTag {
@@ -61,10 +63,12 @@ body, html,  h1, h3{
 
 .skype:hover, .skype a:hover{
     color: #0D599A;
+    transition: 500ms;
 }
 
 .discord:hover, .discord a:hover{
     color: #677ED5;
+    transition: 500ms;
 }
 
 .profileImage{
@@ -75,6 +79,13 @@ body, html,  h1, h3{
 }
 /*================== END OF SOCIAL ICON==================*/
 
+.img-ease {
+    transition: all 1000ms;
+}
+
+.img-ease:hover{
+    transform: scale(1.05);
+}
 
 /*================== END OF OPENING PAGE ==================*/
 
